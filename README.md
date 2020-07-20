@@ -9,4 +9,5 @@
 - building story page with initialProps from the story id in query params
 - created CommentList & recursive Comment components, added comments to story
 - added logic to back button using next/router
--
+- generated a web app manifest
+- 
