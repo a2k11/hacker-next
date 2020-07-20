@@ -17,10 +17,10 @@ export default class MyDocument extends Document {
           <meta name="msapplication-starturl" content="/" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-          <link rel="icon" type="image/png" sizes="512x512" href="/static/icons/icon-512x512.png" />
-          <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="/static/icons/icon-512x512.png" />
-          <link rel="icon" type="image/png" sizes="192x192" href="/static/icons/icon-192x192.png" />
-          <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="/static/icons/icon-192x192.png" />
+          <link rel="icon" type="image/png" sizes="512x512" href="icon-512x512.png" />
+          <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="icon-512x512.png" />
+          <link rel="icon" type="image/png" sizes="192x192" href="icon-192x192.png" />
+          <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="icon-192x192.png" />
         </Head>
         <body>
           <Main />
