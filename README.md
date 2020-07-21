@@ -10,4 +10,5 @@
 - created CommentList & recursive Comment components, added comments to story
 - added logic to back button using next/router
 - generated a web app manifest
+- implemented service worker to cache external project dependencies
 - 
