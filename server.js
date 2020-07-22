@@ -14,7 +14,7 @@ app.prepare().then(() => {
     const parsedUrl = url.parse(req.url, true);
     const { pathname } = parsedUrl;
 
-    /* If a service worker is request, serve it as a static file*/
+    /* If a service worker is requested, serve it as a static file*/
     if (pathname === '/service-worker.js') {
       const filePath = path.join(__dirname, '.next', pathname);
       app.serveStatic(req, res, filePath);
@@ -25,5 +25,5 @@ app.prepare().then(() => {
     }
   }).listen(port, () => {
     console.log(`Listening on PORT ${port}`);
-  })
-})
+  });
+});
