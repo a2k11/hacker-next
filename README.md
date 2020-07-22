@@ -11,4 +11,4 @@
 - added logic to back button using next/router
 - generated a web app manifest
 - implemented service worker to cache external project dependencies
-- 
+- deployed to heroku: https://a2k11-hacker-next.herokuapp.com/
