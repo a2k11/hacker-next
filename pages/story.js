@@ -9,7 +9,7 @@ class Story extends React.Component {
     try {
       const storyId = query.id;
       const response = await fetch(
-        `http://node-hnapi.herokuapp.com/item/${storyId}`
+        `https://node-hnapi.herokuapp.com/item/${storyId}`
       );
       story = await response.json();
     } catch (error) {
